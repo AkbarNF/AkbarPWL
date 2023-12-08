@@ -5,13 +5,12 @@
         </h2>
     </x-slot>
 
-    <div class="py-12">
+    <div class="py-10">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900 dark:text-gray-100">
-                    <x-primary-button class="mb-4">Tambah data</x-primary-button><x-primary-button class="mb-4">Hapus data</x-primary-button>
-                    
-
+                    <x-primary-button class="mb-10">Tambah data</x-primary-button><x-primary-button class="mb-4">Hapus data</x-primary-button>
+            
 <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
     <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
         <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
@@ -48,7 +47,7 @@
                     $2999
                 </td>
                 <td class="px-6 py-4">
-                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+                    <x-primary-button class="mb-10">Edit</x-primary-button>
                 </td>
             </tr>
             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -65,7 +64,7 @@
                     $1999
                 </td>
                 <td class="px-6 py-4">
-                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+                    <x-primary-button class="mb-10">Edit</x-primary-button>
                 </td>
             </tr>
             <tr class="bg-white dark:bg-gray-800">
@@ -82,13 +81,25 @@
                     $99
                 </td>
                 <td class="px-6 py-4">
-                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
-                </td>
-            </tr>
+                    <x-primary-button class="mb-10">Edit</x-primary-button>
+</td>
+    </tr>
         </tbody>
-    </table>
-</div>
-
+            </table>
+                </div>
+                <footer class="bg-white dark:bg-gray-900">
+                    <div class="mx-auto w-full max-w-screen-xl">
+                      <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
+                        <div class="flex flex-col md:flex-row">
+                            <div class="md:mr-8">
+                                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2><h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Help Center</h2><h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">About</h2><h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Book</h2>   
+                                
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </footer>
+                
                 </div>
             </div>
         </div>
